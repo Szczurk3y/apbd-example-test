@@ -7,10 +7,10 @@
 2) .gitignore
 3) - Controllers/
    - DTOs/
-   - Data/
+   - Data/DatabaseContext
    - Exceptions
    - Migrations/
    - Models/
    - Properties/
-   - Services/
-
+   - Services/DbService & IdbService
+4) 
