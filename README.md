@@ -1,4 +1,6 @@
-1)
+1) TODO:
+   - try models with required keyword
+2) 
    - Microsoft.AspNetCore.OpenApi
    - Microsoft.EntityFrameworkCore
    - Microsoft.EntityFrameworkCore.Design
@@ -13,4 +15,12 @@
    - Models/
    - Properties/
    - Services/DbService & IdbService
-4) 
+4) Models
+   - DataAnnotations
+   - DataAnnotations.Schema
+5) Controllers
+   - [ApiController][Route("api/...")]
+   - implement in build, Program.cs
+6) DTOs
+7) IDbService, DbService, DatabaseContext
+8) Exceptions

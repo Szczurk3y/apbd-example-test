@@ -1,4 +1,3 @@
-using System.Text.Json.Serialization;
 using apbd_test.Data;
 using apbd_test.Services;
 using Microsoft.EntityFrameworkCore;
@@ -6,12 +5,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
-builder.Services.AddControllers().AddJsonOptions(options =>
-{
-    options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
-    options.JsonSerializerOptions.WriteIndented = true;
-});
+builder.Services.AddControllers();
 
 // Konfiguracja kontekstu bazy danych
 // ConnectionString jest pobierany z appsettings.json, oczywiście należy go tam też ustawić
