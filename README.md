@@ -5,4 +5,12 @@
    - Microsoft.EntityFrameworkCore.SqlServer
    - Microsoft.EntityFrameworkCore.Tools
 2) .gitignore
-3) 
+3) - Controllers/
+   - DTOs/
+   - Data/
+   - Exceptions
+   - Migrations/
+   - Models/
+   - Properties/
+   - Services/
+
