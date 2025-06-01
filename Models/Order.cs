@@ -9,7 +9,7 @@ public class Order
     [Key]
     public int Id { get; set; }
     public DateTime CreatedAt { get; set; }
-    public DateTime FulfilledAt { get; set; }
+    public DateTime? FulfilledAt { get; set; }
     
     [ForeignKey(nameof(Client))]
     public int ClientId { get; set; }

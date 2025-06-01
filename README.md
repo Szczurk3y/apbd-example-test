@@ -28,3 +28,6 @@
 6) DTOs
 7) IDbService, DbService, DatabaseContext
 8) Exceptions
+9) Create dummy set in DatabaseContext
+10) dotnet ef migrations add Init
+    dotnet ef database update
