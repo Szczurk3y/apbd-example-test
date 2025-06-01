@@ -7,6 +7,10 @@
    - Microsoft.EntityFrameworkCore.SqlServer
    - Microsoft.EntityFrameworkCore.Tools
 2) .gitignore
+3) appsettings.json:
+   "ConnectionStrings": {
+      "Default": "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=apbd;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False"
+   }
 3) - Controllers/
    - DTOs/
    - Data/DatabaseContext
